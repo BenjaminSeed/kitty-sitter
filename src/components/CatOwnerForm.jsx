@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../styles/CatOwnerForm.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const CatOwnerForm = () => {
   const [ownerForm, setOwnerForm] = useState({
@@ -17,7 +19,7 @@ const CatOwnerForm = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    alert("form submitted");
+    toast("Form Submitted!");
     setOwnerForm({
       ownerName: "",
       catName: "",
@@ -29,6 +31,7 @@ const CatOwnerForm = () => {
 
   return (
     <div>
+      <h1 className="owner-title">Cat Owner Form</h1>
       <form onSubmit={handleSubmit} className="form">
         <div className="form-row">
           <label className="form-label">
@@ -99,6 +102,7 @@ const CatOwnerForm = () => {
       <button className="btn btn-block" onClick={handleClick}>
         Submit Form
       </button>
+      <ToastContainer position="top-center" theme="dark" />
     </div>
   );
 };

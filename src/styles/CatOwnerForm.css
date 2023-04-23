@@ -52,3 +52,10 @@
   background: lightgray;
   border: 1px solid grey;
 }
+
+.owner-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.3rem;
+}
