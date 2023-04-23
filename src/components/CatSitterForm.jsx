@@ -39,6 +39,7 @@ const CatSitterForm = () => {
             <input
               type="text"
               className="form-input"
+              placeholder="e.g. Mary Smith"
               value={form.name}
               onChange={(e) => setForm({ ...form, name: e.target.value })}
             />
@@ -50,6 +51,7 @@ const CatSitterForm = () => {
             <input
               type="email"
               className="form-input"
+              placeholder="e.g. mary.smith@email.com"
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
             />
@@ -61,6 +63,7 @@ const CatSitterForm = () => {
             <input
               type="text"
               className="form-input"
+              placeholder="e.g. 123 Smith Street, Manchester, M1 1AB"
               value={form.address}
               onChange={(e) => setForm({ ...form, address: e.target.value })}
             />
@@ -72,6 +75,7 @@ const CatSitterForm = () => {
             <input
               type="text"
               className="form-input"
+              placeholder="e.g. 02778777777"
               value={form.phoneNumber}
               onChange={(e) =>
                 setForm({ ...form, phoneNumber: e.target.value })
@@ -81,10 +85,11 @@ const CatSitterForm = () => {
         </div>
         <div className="form-row">
           <label className="form-label">
-            Experience:
+            Experience (Years):
             <input
-              type="text"
+              type="number"
               className="form-input"
+              placeholder="e.g. 3 "
               value={form.experience}
               onChange={(e) => setForm({ ...form, experience: e.target.value })}
             />
