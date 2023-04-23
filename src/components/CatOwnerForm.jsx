@@ -133,7 +133,7 @@ const CatOwnerForm = () => {
           </div>
           <div className="form-row">
             <label className="form-label">
-              Special Requirements
+              Cat Image
               <input
                 type="file"
                 className="form-input"

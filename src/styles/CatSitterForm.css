@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
 .btn {
+  font-family: "Amatic SC", cursive;
   cursor: pointer;
   max-width: 50%;
   color: whitesmoke;
+  font-size: x-large;
   background: slategray;
   border: transparent;
   border-radius: 15px;
@@ -21,6 +25,7 @@
   display: block;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .form {
@@ -30,7 +35,13 @@
   border-radius: 15px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 2rem 2.5rem;
-  margin: 3rem auto;
+  margin: 1rem auto;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.form-input::placeholder {
+  opacity: 0.2;
+  color: black;
 }
 
 .form-row {
@@ -38,8 +49,10 @@
 }
 
 .form-label {
+  font-family: "Amatic SC", cursive;
   display: block;
-  font-size: small;
+  font-size: 25px;
+  font-weight: 700;
   margin-bottom: 0.5rem;
   text-transform: capitalize;
   letter-spacing: 0.2rem;
@@ -51,9 +64,13 @@
   border-radius: 15px;
   background: lightgray;
   border: 1px solid grey;
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
 }
 
 .sitter-title {
+  font-family: "Amatic SC", cursive;
   display: flex;
   align-items: center;
   justify-content: center;

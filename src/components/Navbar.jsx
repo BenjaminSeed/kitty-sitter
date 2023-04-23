@@ -1,13 +1,14 @@
 import React from "react";
 import { social, links } from "./Data";
 import "../styles/Navbar.css";
+import img from "../assets/Kitty_Sitter_200x200.png";
 
 const Navbar = () => {
   return (
     <nav className="container">
       <div>
-        <div>
-          <img src="" alt="" />
+        <div className="nav-img">
+          <img src={img} />
         </div>
       </div>
 
@@ -22,6 +23,7 @@ const Navbar = () => {
             );
           })}
         </ul>
+        <h1 className="nav-title">Kitty Sitter</h1>
       </div>
 
       <div>

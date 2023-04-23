@@ -12,18 +12,18 @@ export const links = [
   },
   {
     id: 3,
-    url: "/projects",
-    text: "projects",
+    url: "/sitters",
+    text: "sitters",
   },
   {
     id: 4,
-    url: "/contact",
-    text: "contact",
+    url: "/owners",
+    text: "owners",
   },
   {
     id: 5,
-    url: "/profile",
-    text: "profile",
+    url: "/contact",
+    text: "contact",
   },
 ];
 
