@@ -70,3 +70,8 @@
   letter-spacing: 0.3rem;
   margin-bottom: 0;
 }
+
+.toast {
+  font-size: xx-large;
+  text-align: center;
+}

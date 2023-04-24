@@ -14,7 +14,7 @@ const CatSitterForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log({ name, email, address, phoneNumber, experience });
+    console.log(form);
   };
 
   const handleClick = (e) => {
@@ -99,7 +99,7 @@ const CatSitterForm = () => {
       <button className="btn btn-block" onClick={handleClick}>
         Submit Form
       </button>
-      <ToastContainer position="top-center" theme="dark" />
+      <ToastContainer position="top-center" theme="dark" className="toast" />
     </div>
   );
 };

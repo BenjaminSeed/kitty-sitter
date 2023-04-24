@@ -16,15 +16,7 @@ const CatOwnerForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log({
-      ownerName,
-      catName,
-      address,
-      phoneNumber,
-      catAge,
-      catRequirements,
-      cat,
-    });
+    console.log(ownerForm);
   };
 
   const handleClick = (e) => {
@@ -153,7 +145,7 @@ const CatOwnerForm = () => {
       <button className="btn btn-block" onClick={handleClick}>
         Submit Form
       </button>
-      <ToastContainer position="top-center" theme="dark" />
+      <ToastContainer position="top-center" theme="dark" className="toast" />
     </div>
   );
 };
