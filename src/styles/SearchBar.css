@@ -1,0 +1,24 @@
+.searchBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.searchBar input {
+  height: 3rem;
+  width: 30rem;
+  border-radius: 20px;
+  border: 2px solid #f4a50e;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.searchIcon {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 2.2rem;
+  left: 27rem;
+  font-size: 20px;
+  max-width: 20px;
+}

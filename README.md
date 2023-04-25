@@ -16,3 +16,7 @@ Notification Component: This component will allow users to receive notifications
 
 use faker.js for false data
 TOASTIFY
+
+SearchBar component - TODO check for cat sitters based on location, price or availability
+
+CurrentJobs component - TODO use hardcoded data to list available positions
