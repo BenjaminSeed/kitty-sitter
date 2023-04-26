@@ -3,7 +3,7 @@ import "../styles/SearchBar.css";
 import { FaSearch } from "react-icons/fa";
 
 const SearchBar = ({ placeHolder, data }) => {
-  useState();
+  const [filteredData, setFilteredData] = useState([]);
   return (
     <div className="searchBar">
       <div className="searchInput">
@@ -12,7 +12,18 @@ const SearchBar = ({ placeHolder, data }) => {
           <FaSearch />{" "}
         </div>
       </div>
-      <div className="results"></div>
+      {filteredData.length != 0 && (
+        <div className="results">
+          {data.map((value) => {
+            const { name, location, price, availability, rating, id } = value;
+            return (
+              <div key={id} className="dataItem">
+                {name}
+              </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 };
