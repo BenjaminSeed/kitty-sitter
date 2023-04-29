@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "../styles/SearchBar.css";
 import { FaSearch } from "react-icons/fa";
+import { Link, Route, Routes } from "react-router-dom";
+import SearchResults from "./SearchResults";
 
 const SearchBar = ({ placeHolder, data }) => {
   const [filteredData, setFilteredData] = useState([]);
@@ -25,6 +27,10 @@ const SearchBar = ({ placeHolder, data }) => {
     }
   };
 
+  <Routes>
+    <Route path="/results" element={<SearchResults />} />
+  </Routes>;
+
   return (
     <div className="searchBar">
       <div className="searchInput">
@@ -39,12 +45,19 @@ const SearchBar = ({ placeHolder, data }) => {
             const { name, location, price, availability, rating, id } = value;
             return (
               <div key={id} className="dataItem">
-                <div className="dataItemName">Sitter Name : {name}</div>
-                <div className="dataItemLocation">
+                <Link className="dataItemName" to={`/results/${name}`}>
+                  Sitter Name: {name}
+                </Link>
+                <div className="dataItemLocation" to={`/results/${location}`}>
                   Sitter Location : {location}
                 </div>
-                <div className="dataItemPrice">Sitter Price : {price}</div>
-                <div className="dataItemAvailability">
+                <div className="dataItemPrice" to={`/results/${price}`}>
+                  Sitter Price : {price}
+                </div>
+                <div
+                  className="dataItemAvailability"
+                  to={`/results/${availability}`}
+                >
                   Sitter Availability : {availability}
                 </div>
                 <div className="dataItemRating">Sitter Rating : {rating}</div>

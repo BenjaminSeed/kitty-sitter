@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div>
       <SearchBar
-        placeHolder="search sitter price, location, availability..."
+        placeHolder="search sitter price, city, availability..."
         data={sitterData}
       />
       <Carousel />
