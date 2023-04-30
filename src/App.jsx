@@ -18,6 +18,7 @@ function App() {
         <Route path="/owners" element={<CatOwnerForm />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/results" element={<SearchResults />} />
         <Route path="/results/:name" element={<SearchResults />} />
       </Routes>
     </div>

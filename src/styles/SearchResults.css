@@ -11,9 +11,12 @@
   justify-items: center;
   background-color: white;
   border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .result-header {
+  display: grid;
+  justify-items: center;
   text-decoration: none;
   font-size: 4rem;
   font-family: "Amatic SC", cursive;

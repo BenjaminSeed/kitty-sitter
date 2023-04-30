@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "../styles/SearchBar.css";
 import { FaSearch } from "react-icons/fa";
-import { Link, Route, Routes } from "react-router-dom";
-import SearchResults from "./SearchResults";
+import { Link } from "react-router-dom";
 
 const SearchBar = ({ placeHolder, data }) => {
   const [filteredData, setFilteredData] = useState([]);
+  const [linkClicked, setLinkClicked] = useState(true);
 
   const handleChange = (e) => {
     e.preventDefault();
@@ -27,9 +27,10 @@ const SearchBar = ({ placeHolder, data }) => {
     }
   };
 
-  <Routes>
-    <Route path="/results" element={<SearchResults />} />
-  </Routes>;
+  const handleLinkClick = () => {
+    linkClicked === value.name;
+    return setLinkClicked(false);
+  };
 
   return (
     <div className="searchBar">
@@ -39,13 +40,17 @@ const SearchBar = ({ placeHolder, data }) => {
           <FaSearch />{" "}
         </div>
       </div>
-      {filteredData.length != 0 && (
+      {filteredData.length !== 0 && (
         <div className="results">
           {filteredData.map((value) => {
             const { name, location, price, availability, rating, id } = value;
             return (
               <div key={id} className="dataItem">
-                <Link className="dataItemName" to={`/results/${name}`}>
+                <Link
+                  className="dataItemName"
+                  to={`/results/${name}`}
+                  onClick={handleLinkClick}
+                >
                   Sitter Name: {name}
                 </Link>
                 <div className="dataItemLocation" to={`/results/${location}`}>

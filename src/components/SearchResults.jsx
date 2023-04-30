@@ -17,11 +17,13 @@ const SearchResults = () => {
       <h1 className="result-header">Cat Sitters profile page</h1>
       <SearchBar placeHolder="search for all cat sitters" data={sitterData} />
       <div className="result-card">
-        <div className="result-name">{sitter.name}</div>
-        <div className="result-location">{sitter.location}</div>
-        <div className="result-price">{sitter.price}</div>
-        <div className="result-availability">{sitter.availability}</div>
-        <div className="result-rating">{sitter.rating}</div>
+        <div className="result-name">Name: {sitter.name}</div>
+        <div className="result-location">Location: {sitter.location}</div>
+        <div className="result-price">Rate: {sitter.price}</div>
+        <div className="result-availability">
+          Availability: {sitter.availability}
+        </div>
+        <div className="result-rating">Rating: {sitter.rating}</div>
       </div>
     </div>
   );

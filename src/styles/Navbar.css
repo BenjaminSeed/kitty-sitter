@@ -23,8 +23,8 @@
 }
 
 .nav-title {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  justify-items: center;
   font-size: 130px;
   color: #f4a50e;
   -webkit-text-stroke: 0.8px black;
