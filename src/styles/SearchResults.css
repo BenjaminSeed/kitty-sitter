@@ -4,7 +4,7 @@
 }
 
 .result-card {
-  height: 200px;
+  height: 400px;
   width: 350px;
   margin-top: 1rem;
   display: grid;
@@ -12,6 +12,7 @@
   background-color: white;
   border-radius: 20px;
   margin-bottom: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.67);
 }
 
 .result-header {
@@ -22,4 +23,43 @@
   font-family: "Amatic SC", cursive;
   color: black;
   -webkit-text-stroke: 0.8px white;
+}
+
+.result-image {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 0.4rem;
+  object-fit: cover;
+  border: 2px solid #f4a50e;
+}
+
+.result-name {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.result-location {
+  font-size: 1.6rem;
+}
+
+.result-price {
+  font-size: 1.6rem;
+}
+
+.result-availability {
+  font-size: 1.6rem;
+}
+
+.result-rating {
+  font-size: 1.6rem;
+}
+
+.result-button {
+  font-size: 2rem;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.67);
 }

@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "John Smith",
+    "image": "../../src/assets/alexander-hipp-iEEBWgY_6lA-unsplash.jpg",
     "location": "London",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£15 per hour",
@@ -10,6 +11,7 @@
   {
     "id": 2,
     "name": "Emily Jones",
+    "image": "../../src/assets/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg",
     "location": "Manchester",
     "availability": "Flexible",
     "price": "£20 per hour",
@@ -18,6 +20,7 @@
   {
     "id": 3,
     "name": "William Brown",
+    "image": "../../src/assets/alexander-hipp-iEEBWgY_6lA-unsplash.jpg",
     "location": "Birmingham",
     "availability": "Weekends only",
     "price": "£25 per hour",
@@ -26,6 +29,7 @@
   {
     "id": 4,
     "name": "Sophie Taylor",
+    "image": "../../src/assets/hazel-aksoy-UcTI5ge05so-unsplash.jpg",
     "location": "Glasgow",
     "availability": "Monday to Thursday, 9am to 3pm",
     "price": "£30 per hour",
@@ -34,6 +38,7 @@
   {
     "id": 5,
     "name": "Thomas Wilson",
+    "image": "../../src/assets/alexander-hipp-iEEBWgY_6lA-unsplash.jpg",
     "location": "Edinburgh",
     "availability": "Friday to Sunday, 6pm to 12am",
     "price": "£35 per hour",
@@ -42,6 +47,7 @@
   {
     "id": 6,
     "name": "Olivia Brown",
+    "image": "../../src/assets/alexander-hipp-iEEBWgY_6lA-unsplash.jpg",
     "location": "Belfast",
     "availability": "Flexible",
     "price": "£40 per hour",
@@ -50,6 +56,7 @@
   {
     "id": 7,
     "name": "James Taylor",
+    "image": "../../src/assets/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg",
     "location": "Leeds",
     "availability": "Weekdays only, 9am to 3pm",
     "price": "£20 per hour",
@@ -58,6 +65,7 @@
   {
     "id": 8,
     "name": "Elizabeth Wilson",
+    "image": "../../src/assets/karsten-winegeart-bwDnRf-r4u8-unsplash.jpg",
     "location": "Sheffield",
     "availability": "Weekends only, 9am to 5pm",
     "price": "£45 per hour",
@@ -66,6 +74,7 @@
   {
     "id": 9,
     "name": "Henry Davis",
+    "image": "../../src/assets/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg",
     "location": "Liverpool",
     "availability": "Flexible",
     "price": "£30 per hour",
@@ -74,6 +83,7 @@
   {
     "id": 10,
     "name": "Charlotte Brown",
+    "image": "../../src/assets/karsten-winegeart-bwDnRf-r4u8-unsplash.jpg",
     "location": "Cardiff",
     "availability": "Monday to Friday, 9am to 6pm",
     "price": "£50 per hour",
@@ -82,6 +92,7 @@
   {
     "id": 11,
     "name": "Benjamin Williams",
+    "image": "../../src/assets/andre-sebastian-C2Nf5iPOnz0-unsplash.jpg",
     "location": "Bristol",
     "availability": "Monday to Thursday, 9am to 5pm",
     "price": "£25 per hour",
@@ -91,6 +102,7 @@
   {
     "id": 12,
     "name": "Emma Johnson",
+    "image": "../../src/assets/karsten-winegeart-bwDnRf-r4u8-unsplash.jpg",
     "location": "Manchester",
     "availability": "Flexible",
     "price": "£20 per hour",
@@ -100,6 +112,7 @@
   {
     "id": 13,
     "name": "James Taylor",
+    "image": "../../src/assets/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg",
     "location": "Leeds",
     "availability": "Monday to Friday, 10am to 4pm",
     "price": "£30 per hour",
@@ -109,6 +122,7 @@
   {
     "id": 14,
     "name": "Charlotte Brown",
+    "image": "../../src/assets/karsten-winegeart-bwDnRf-r4u8-unsplash.jpg",
     "location": "Liverpool",
     "availability": "Weekends only",
     "price": "£35 per hour",
@@ -118,6 +132,7 @@
   {
     "id": 15,
     "name": "Henry Davis",
+    "image": "../../src/assets/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg",
     "location": "Glasgow",
     "availability": "Monday to Wednesday, 9am to 1pm",
     "price": "£40 per hour",
@@ -127,6 +142,7 @@
   {
     "id": 16,
     "name": "Sophie Wilson",
+    "image": "../../src/assets/karsten-winegeart-bwDnRf-r4u8-unsplash.jpg",
     "location": "Sheffield",
     "availability": "Thursday to Sunday, 12pm to 6pm",
     "price": "£30 per hour",
@@ -136,6 +152,7 @@
   {
     "id": 17,
     "name": "Jack Smith",
+    "image": "../../src/assets/karabo-mdluli-Y7TEMCKRIgI-unsplash.jpg",
     "location": "Birmingham",
     "availability": "Monday to Friday, 8am to 6pm",
     "price": "£25 per hour",
@@ -145,6 +162,7 @@
   {
     "id": 18,
     "name": "Olivia Jones",
+    "image": "../../src/assets/karsten-winegeart-bwDnRf-r4u8-unsplash.jpg",
     "location": "Cardiff",
     "availability": "Flexible",
     "price": "£50 per hour",
@@ -154,6 +172,7 @@
   {
     "id": 19,
     "name": "William Brown",
+    "image": "../../src/assets/karabo-mdluli-Y7TEMCKRIgI-unsplash.jpg",
     "location": "Edinburgh",
     "availability": "Weekends only",
     "price": "£45 per hour",
@@ -163,6 +182,7 @@
   {
     "id": 20,
     "name": "Emily Taylor",
+    "image": "../../src/assets/karsten-winegeart-bwDnRf-r4u8-unsplash.jpg",
     "location": "London",
     "availability": "Monday to Friday, 10am to 4pm",
     "price": "£35 per hour",
@@ -171,6 +191,7 @@
   {
     "id": 21,
     "name": "Adam Johnson",
+    "image": "../../src/assets/karabo-mdluli-Y7TEMCKRIgI-unsplash.jpg",
     "location": "Leeds",
     "availability": "Monday to Friday, 10am to 4pm",
     "price": "£18 per hour",
@@ -180,6 +201,7 @@
   {
     "id": 22,
     "name": "Eleanor Brown",
+    "image": "../../src/assets/edward-cisneros-_H6wpor9mjs-unsplash.jpg",
     "location": "Glasgow",
     "availability": "Weekends only, 9am to 6pm",
     "price": "£22 per hour",
@@ -189,6 +211,7 @@
   {
     "id": 23,
     "name": "Harry Wilson",
+    "image": "../../src/assets/karabo-mdluli-Y7TEMCKRIgI-unsplash.jpg",
     "location": "Belfast",
     "availability": "Flexible",
     "price": "£25 per hour",
@@ -198,6 +221,7 @@
   {
     "id": 24,
     "name": "Mia Thompson",
+    "image": "../../src/assets/edward-cisneros-_H6wpor9mjs-unsplash.jpg",
     "location": "London",
     "availability": "Monday to Thursday, 9am to 2pm",
     "price": "£28 per hour",
@@ -207,6 +231,7 @@
   {
     "id": 25,
     "name": "Jacob White",
+    "image": "../../src/assets/karabo-mdluli-Y7TEMCKRIgI-unsplash.jpg",
     "location": "Manchester",
     "availability": "Weekdays only, 10am to 5pm",
     "price": "£20 per hour",
@@ -216,6 +241,7 @@
   {
     "id": 26,
     "name": "Grace Smith",
+    "image": "../../src/assets/edward-cisneros-_H6wpor9mjs-unsplash.jpg",
     "location": "Edinburgh",
     "availability": "Flexible",
     "price": "£32 per hour",
@@ -225,6 +251,7 @@
   {
     "id": 27,
     "name": "George Brown",
+    "image": "../../src/assets/karabo-mdluli-nRwJaWg7McU-unsplash.jpg",
     "location": "Liverpool",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£35 per hour",
@@ -234,6 +261,7 @@
   {
     "id": 28,
     "name": "Isabella Taylor",
+    "image": "../../src/assets/edward-cisneros-_H6wpor9mjs-unsplash.jpg",
     "location": "Cardiff",
     "availability": "Weekends only, 8am to 4pm",
     "price": "£38 per hour",
@@ -243,6 +271,7 @@
   {
     "id": 29,
     "name": "Edward Jones",
+    "image": "../../src/assets/karabo-mdluli-nRwJaWg7McU-unsplash.jpg",
     "location": "Birmingham",
     "availability": "Flexible",
     "price": "£27 per hour",
@@ -252,6 +281,7 @@
   {
     "id": 30,
     "name": "Emma Wilson",
+    "image": "../../src/assets/edward-cisneros-_H6wpor9mjs-unsplash.jpg",
     "location": "Sheffield",
     "availability": "Monday to Friday, 11am to 6pm",
     "price": "£40 per hour",
@@ -260,6 +290,7 @@
   {
     "id": 31,
     "name": "Sarah Brown",
+    "image": "../../src/assets/jason-moyer-7JmGPyljOSE-unsplash.jpg",
     "location": "Birmingham",
     "availability": "Weekdays only, 10am to 4pm",
     "price": "£12 per hour",
@@ -269,6 +300,7 @@
   {
     "id": 32,
     "name": "David Wilson",
+    "image": "../../src/assets/karabo-mdluli-nRwJaWg7McU-unsplash.jpg",
     "location": "Glasgow",
     "availability": "Weekends only, 9am to 6pm",
     "price": "£11 per hour",
@@ -278,6 +310,7 @@
   {
     "id": 33,
     "name": "Hannah Smith",
+    "image": "../../src/assets/jason-moyer-7JmGPyljOSE-unsplash.jpg",
     "location": "Manchester",
     "availability": "Flexible",
     "price": "£10 per hour",
@@ -287,6 +320,7 @@
   {
     "id": 34,
     "name": "Christopher Taylor",
+    "image": "../../src/assets/karabo-mdluli-nRwJaWg7McU-unsplash.jpg",
     "location": "Liverpool",
     "availability": "Monday to Friday, 8am to 4pm",
     "price": "£13 per hour",
@@ -296,6 +330,7 @@
   {
     "id": 35,
     "name": "Sophie Brown",
+    "image": "../../src/assets/jason-moyer-7JmGPyljOSE-unsplash.jpg",
     "location": "Belfast",
     "availability": "Weekends only, 9am to 5pm",
     "price": "£14 per hour",
@@ -305,6 +340,7 @@
   {
     "id": 36,
     "name": "George Davis",
+    "image": "../../src/assets/karabo-mdluli-nRwJaWg7McU-unsplash.jpg",
     "location": "Leeds",
     "availability": "Flexible",
     "price": "£11 per hour",
@@ -314,6 +350,7 @@
   {
     "id": 37,
     "name": "Anna Wilson",
+    "image": "../../src/assets/jason-moyer-7JmGPyljOSE-unsplash.jpg",
     "location": "Cardiff",
     "availability": "Monday to Thursday, 9am to 5pm",
     "price": "£12 per hour",
@@ -323,6 +360,7 @@
   {
     "id": 38,
     "name": "Tom Brown",
+    "image": "../../src/assets/karabo-mdluli-nRwJaWg7McU-unsplash.jpg",
     "location": "Edinburgh",
     "availability": "Weekends only, 10am to 6pm",
     "price": "£15 per hour",
@@ -332,6 +370,7 @@
   {
     "id": 39,
     "name": "Lucy Jones",
+    "image": "../../src/assets/jason-moyer-7JmGPyljOSE-unsplash.jpg",
     "location": "Sheffield",
     "availability": "Flexible",
     "price": "£11 per hour",
@@ -341,6 +380,7 @@
   {
     "id": 40,
     "name": "Adam Wilson",
+    "image": "../../src/assets/karabo-mdluli-nRwJaWg7McU-unsplash.jpg",
     "location": "London",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£14 per hour",
@@ -350,6 +390,7 @@
   {
     "id": 41,
     "name": "Grace Taylor",
+    "image": "../../src/assets/jason-moyer-7JmGPyljOSE-unsplash.jpg",
     "location": "Glasgow",
     "availability": "Weekdays only, 10am to 3pm",
     "price": "£10 per hour",
@@ -359,6 +400,7 @@
   {
     "id": 42,
     "name": "Robert Brown",
+    "image": "../../src/assets/karabo-mdluli-nRwJaWg7McU-unsplash.jpg",
     "location": "Manchester",
     "availability": "Flexible",
     "price": "£13 per hour",
@@ -368,6 +410,7 @@
   {
     "id": 43,
     "name": "Ellie Wilson",
+    "image": "../../src/assets/dillon-kydd-J6MK67MIs0I-unsplash.jpg",
     "location": "Birmingham",
     "availability": "Weekends only, 11am to 5pm",
     "price": "£12 per hour",
@@ -377,6 +420,7 @@
   {
     "id": 44,
     "name": "Michael Jones",
+    "image": "../../src/assets/karabo-mdluli-nRwJaWg7McU-unsplash.jpg",
     "location": "Leeds",
     "availability": "Monday to Friday, 8am to 4pm",
     "price": "£15 per hour",
@@ -386,6 +430,7 @@
   {
     "id": 45,
     "name": "Emma Davis",
+    "image": "../../src/assets/dillon-kydd-J6MK67MIs0I-unsplash.jpg",
     "location": "Cardiff",
     "availability": "Flexible",
     "price": "£11 per hour",
@@ -394,6 +439,7 @@
   {
     "id": 46,
     "name": "Sophie Green",
+    "image": "../../src/assets/dillon-kydd-J6MK67MIs0I-unsplash.jpg",
     "location": "Bristol",
     "availability": "Weekdays only, 9am to 3pm",
     "price": "£12 per hour",
@@ -402,6 +448,7 @@
   {
     "id": 47,
     "name": "William Taylor",
+    "image": "../../src/assets/andre-sebastian-C2Nf5iPOnz0-unsplash.jpg",
     "location": "Newcastle",
     "availability": "Flexible",
     "price": "£15 per hour",
@@ -410,6 +457,7 @@
   {
     "id": 48,
     "name": "Emily Williams",
+    "image": "../../src/assets/dillon-kydd-J6MK67MIs0I-unsplash.jpg",
     "location": "Leicester",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£13 per hour",
@@ -418,6 +466,7 @@
   {
     "id": 49,
     "name": "Jacob Brown",
+    "image": "../../src/assets/andre-sebastian-C2Nf5iPOnz0-unsplash.jpg",
     "location": "Glasgow",
     "availability": "Weekends only",
     "price": "£11 per hour",
@@ -426,6 +475,7 @@
   {
     "id": 50,
     "name": "Isabella Wilson",
+    "image": "../../src/assets/dillon-kydd-J6MK67MIs0I-unsplash.jpg",
     "location": "London",
     "availability": "Flexible",
     "price": "£14 per hour",
@@ -434,6 +484,7 @@
   {
     "id": 51,
     "name": "Ethan Johnson",
+    "image": "../../src/assets/andre-sebastian-C2Nf5iPOnz0-unsplash.jpg",
     "location": "Liverpool",
     "availability": "Weekdays only, 9am to 3pm",
     "price": "£12 per hour",
@@ -442,6 +493,7 @@
   {
     "id": 52,
     "name": "Mia Taylor",
+    "image": "../../src/assets/dillon-kydd-J6MK67MIs0I-unsplash.jpg",
     "location": "Sheffield",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£13 per hour",
@@ -450,6 +502,7 @@
   {
     "id": 53,
     "name": "Noah Brown",
+    "image": "../../src/assets/andre-sebastian-C2Nf5iPOnz0-unsplash.jpg",
     "location": "Edinburgh",
     "availability": "Weekends only, 9am to 5pm",
     "price": "£10 per hour",
@@ -458,6 +511,7 @@
   {
     "id": 54,
     "name": "Ava Davis",
+    "image": "../../src/assets/dillon-kydd-J6MK67MIs0I-unsplash.jpg",
     "location": "Manchester",
     "availability": "Flexible",
     "price": "£11 per hour",
@@ -466,6 +520,7 @@
   {
     "id": 55,
     "name": "Liam Wilson",
+    "image": "../../src/assets/andre-sebastian-C2Nf5iPOnz0-unsplash.jpg",
     "location": "Belfast",
     "availability": "Monday to Thursday, 9am to 3pm",
     "price": "£14 per hour",
@@ -474,6 +529,7 @@
   {
     "id": 56,
     "name": "Chloe Brown",
+    "image": "../../src/assets/dillon-kydd-J6MK67MIs0I-unsplash.jpg",
     "location": "Cardiff",
     "availability": "Weekdays only, 9am to 5pm",
     "price": "£15 per hour",
@@ -482,6 +538,7 @@
   {
     "id": 57,
     "name": "Alexander Smith",
+    "image": "../../src/assets/andre-sebastian-C2Nf5iPOnz0-unsplash.jpg",
     "location": "Leeds",
     "availability": "Flexible",
     "price": "£12 per hour",
@@ -490,6 +547,7 @@
   {
     "id": 58,
     "name": "Ella Taylor",
+    "image": "../../src/assets/dillon-kydd-J6MK67MIs0I-unsplash.jpg",
     "location": "Birmingham",
     "availability": "Weekends only",
     "price": "£10 per hour",
@@ -498,6 +556,7 @@
   {
     "id": 59,
     "name": "Daniel Wilson",
+    "image": "../../src/assets/andre-sebastian-C2Nf5iPOnz0-unsplash.jpg",
     "location": "Glasgow",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£13 per hour",
@@ -506,6 +565,7 @@
   {
     "id": 60,
     "name": "Susie Billfold",
+    "image": "../../src/assets/dillon-kydd-J6MK67MIs0I-unsplash.jpg",
     "location": "Manchester",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£15 per hour",
