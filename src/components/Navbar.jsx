@@ -1,5 +1,6 @@
 import React from "react";
 import { social, links } from "./Data";
+import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 import img from "../assets/Kitty_Sitter_200x200.png";
 
@@ -7,9 +8,9 @@ const Navbar = () => {
   return (
     <nav className="container">
       <div>
-        <div className="nav-img">
+        <Link to="/" className="nav-img">
           <img src={img} />
-        </div>
+        </Link>
       </div>
 
       <div>
@@ -43,14 +44,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// need to import react icons.
-// create state, such as showLinks/ setShowlinks
-// then create a toggleLinks function for setShowlinks (!showLinks)
-
-// create a logo and store in asserts. include this in the img element
-// create a seperate file for links and map over this. include an id url and text
-// return this as a list
-// do the same as above for the social icons
-
-// check the navbar project for css
