@@ -6,6 +6,7 @@
     "location": "London",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£15 per hour",
+    "bio": "Hi there, I'm a lifelong cat lover who would love nothing more than to take care of your furry friend! I'm reliable, responsible, and will make sure your cat gets all the love and attention they need.",
     "rating": 4.5
   },
   {
@@ -15,6 +16,7 @@
     "location": "Manchester",
     "availability": "Flexible",
     "price": "£20 per hour",
+    "bio": "Hi there, I'm a lifelong cat lover who would love nothing more than to take care of your furry friend! I'm reliable, responsible, and will make sure your cat gets all the love and attention they need.",
     "rating": 4.8
   },
   {
@@ -24,6 +26,7 @@
     "location": "Birmingham",
     "availability": "Weekends only",
     "price": "£25 per hour",
+    "bio": "Hi there, I'm a lifelong cat lover who would love nothing more than to take care of your furry friend! I'm reliable, responsible, and will make sure your cat gets all the love and attention they need.",
     "rating": 4.2
   },
   {
@@ -33,6 +36,7 @@
     "location": "Glasgow",
     "availability": "Monday to Thursday, 9am to 3pm",
     "price": "£30 per hour",
+    "bio": "Hi there, I'm a lifelong cat lover who would love nothing more than to take care of your furry friend! I'm reliable, responsible, and will make sure your cat gets all the love and attention they need.",
     "rating": 4.6
   },
   {
@@ -42,15 +46,17 @@
     "location": "Edinburgh",
     "availability": "Friday to Sunday, 6pm to 12am",
     "price": "£35 per hour",
+    "bio": "Hello, I'm an experienced cat sitter with a passion for feline friends. Whether you're going away on vacation or just need someone to check in on your cat while you're at work, I'm here to help!",
     "rating": 4.3
   },
   {
     "id": 6,
     "name": "Olivia Brown",
-    "image": "../../src/assets/alexander-hipp-iEEBWgY_6lA-unsplash.jpg",
+    "image": "../../src/assets/hazel-aksoy-UcTI5ge05so-unsplash.jpg",
     "location": "Belfast",
     "availability": "Flexible",
     "price": "£40 per hour",
+    "bio": "Hello, I'm an experienced cat sitter with a passion for feline friends. Whether you're going away on vacation or just need someone to check in on your cat while you're at work, I'm here to help!",
     "rating": 4.9
   },
   {
@@ -60,6 +66,7 @@
     "location": "Leeds",
     "availability": "Weekdays only, 9am to 3pm",
     "price": "£20 per hour",
+    "bio": "Hello, I'm an experienced cat sitter with a passion for feline friends. Whether you're going away on vacation or just need someone to check in on your cat while you're at work, I'm here to help!",
     "rating": 4.4
   },
   {
@@ -69,6 +76,7 @@
     "location": "Sheffield",
     "availability": "Weekends only, 9am to 5pm",
     "price": "£45 per hour",
+    "bio": "Hello, I'm an experienced cat sitter with a passion for feline friends. Whether you're going away on vacation or just need someone to check in on your cat while you're at work, I'm here to help!",
     "rating": 4.7
   },
   {
@@ -78,6 +86,7 @@
     "location": "Liverpool",
     "availability": "Flexible",
     "price": "£30 per hour",
+    "bio": "Hello, I'm an experienced cat sitter with a passion for feline friends. Whether you're going away on vacation or just need someone to check in on your cat while you're at work, I'm here to help!",
     "rating": 4.1
   },
   {
@@ -87,6 +96,7 @@
     "location": "Cardiff",
     "availability": "Monday to Friday, 9am to 6pm",
     "price": "£50 per hour",
+    "bio": "Hello, I'm an experienced cat sitter with a passion for feline friends. Whether you're going away on vacation or just need someone to check in on your cat while you're at work, I'm here to help!",
     "rating": 4.0
   },
   {
@@ -96,6 +106,7 @@
     "location": "Bristol",
     "availability": "Monday to Thursday, 9am to 5pm",
     "price": "£25 per hour",
+    "bio": "Hello, I'm an experienced cat sitter with a passion for feline friends. Whether you're going away on vacation or just need someone to check in on your cat while you're at work, I'm here to help!",
     "rating": 4.2
   },
 
@@ -106,6 +117,7 @@
     "location": "Manchester",
     "availability": "Flexible",
     "price": "£20 per hour",
+    "bio": "Hello, I'm an experienced cat sitter with a passion for feline friends. Whether you're going away on vacation or just need someone to check in on your cat while you're at work, I'm here to help!",
     "rating": 4.8
   },
 
@@ -116,6 +128,7 @@
     "location": "Leeds",
     "availability": "Monday to Friday, 10am to 4pm",
     "price": "£30 per hour",
+    "bio": "Hello, I'm an experienced cat sitter with a passion for feline friends. Whether you're going away on vacation or just need someone to check in on your cat while you're at work, I'm here to help!",
     "rating": 4.4
   },
 
@@ -126,6 +139,7 @@
     "location": "Liverpool",
     "availability": "Weekends only",
     "price": "£35 per hour",
+    "bio": "Hello, I'm an experienced cat sitter with a passion for feline friends. Whether you're going away on vacation or just need someone to check in on your cat while you're at work, I'm here to help!",
     "rating": 4.0
   },
 
@@ -136,6 +150,7 @@
     "location": "Glasgow",
     "availability": "Monday to Wednesday, 9am to 1pm",
     "price": "£40 per hour",
+    "bio": "Hello, I'm an experienced cat sitter with a passion for feline friends. Whether you're going away on vacation or just need someone to check in on your cat while you're at work, I'm here to help!",
     "rating": 4.1
   },
 
@@ -146,6 +161,7 @@
     "location": "Sheffield",
     "availability": "Thursday to Sunday, 12pm to 6pm",
     "price": "£30 per hour",
+    "bio": "Hey! I'm a cat sitter with a love for all things feline. I've been taking care of cats for years and have experience with cats of all ages, sizes, and temperaments.",
     "rating": 4.6
   },
 
@@ -156,6 +172,7 @@
     "location": "Birmingham",
     "availability": "Monday to Friday, 8am to 6pm",
     "price": "£25 per hour",
+    "bio": "Hey! I'm a cat sitter with a love for all things feline. I've been taking care of cats for years and have experience with cats of all ages, sizes, and temperaments.",
     "rating": 4.3
   },
 
@@ -166,6 +183,7 @@
     "location": "Cardiff",
     "availability": "Flexible",
     "price": "£50 per hour",
+    "bio": "Hey! I'm a cat sitter with a love for all things feline. I've been taking care of cats for years and have experience with cats of all ages, sizes, and temperaments.",
     "rating": 4.9
   },
 
@@ -176,6 +194,7 @@
     "location": "Edinburgh",
     "availability": "Weekends only",
     "price": "£45 per hour",
+    "bio": "Hey! I'm a cat sitter with a love for all things feline. I've been taking care of cats for years and have experience with cats of all ages, sizes, and temperaments.",
     "rating": 4.2
   },
 
@@ -186,6 +205,7 @@
     "location": "London",
     "availability": "Monday to Friday, 10am to 4pm",
     "price": "£35 per hour",
+    "bio": "Hey! I'm a cat sitter with a love for all things feline. I've been taking care of cats for years and have experience with cats of all ages, sizes, and temperaments.",
     "rating": 4.8
   },
   {
@@ -195,6 +215,7 @@
     "location": "Leeds",
     "availability": "Monday to Friday, 10am to 4pm",
     "price": "£18 per hour",
+    "bio": "Hey! I'm a cat sitter with a love for all things feline. I've been taking care of cats for years and have experience with cats of all ages, sizes, and temperaments.",
     "rating": 4.2
   },
 
@@ -205,6 +226,7 @@
     "location": "Glasgow",
     "availability": "Weekends only, 9am to 6pm",
     "price": "£22 per hour",
+    "bio": "Hey! I'm a cat sitter with a love for all things feline. I've been taking care of cats for years and have experience with cats of all ages, sizes, and temperaments.",
     "rating": 4.9
   },
 
@@ -215,6 +237,7 @@
     "location": "Belfast",
     "availability": "Flexible",
     "price": "£25 per hour",
+    "bio": "Hey! I'm a cat sitter with a love for all things feline. I've been taking care of cats for years and have experience with cats of all ages, sizes, and temperaments.",
     "rating": 4.5
   },
 
@@ -225,6 +248,7 @@
     "location": "London",
     "availability": "Monday to Thursday, 9am to 2pm",
     "price": "£28 per hour",
+    "bio": "Hey! I'm a cat sitter with a love for all things feline. I've been taking care of cats for years and have experience with cats of all ages, sizes, and temperaments.",
     "rating": 4.6
   },
 
@@ -235,6 +259,7 @@
     "location": "Manchester",
     "availability": "Weekdays only, 10am to 5pm",
     "price": "£20 per hour",
+    "bio": "Hey! I'm a cat sitter with a love for all things feline. I've been taking care of cats for years and have experience with cats of all ages, sizes, and temperaments.",
     "rating": 4.3
   },
 
@@ -245,6 +270,7 @@
     "location": "Edinburgh",
     "availability": "Flexible",
     "price": "£32 per hour",
+    "bio": "Hi, I'm a cat sitter who loves spending time with cats! I understand that every cat is unique and has their own needs, and I'm happy to provide personalized care to ensure your cat is happy and healthy.",
     "rating": 4.8
   },
 
@@ -255,6 +281,7 @@
     "location": "Liverpool",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£35 per hour",
+    "bio": "Hi, I'm a cat sitter who loves spending time with cats! I understand that every cat is unique and has their own needs, and I'm happy to provide personalized care to ensure your cat is happy and healthy.",
     "rating": 4.4
   },
 
@@ -265,6 +292,7 @@
     "location": "Cardiff",
     "availability": "Weekends only, 8am to 4pm",
     "price": "£38 per hour",
+    "bio": "Hi, I'm a cat sitter who loves spending time with cats! I understand that every cat is unique and has their own needs, and I'm happy to provide personalized care to ensure your cat is happy and healthy.",
     "rating": 4.7
   },
 
@@ -275,6 +303,7 @@
     "location": "Birmingham",
     "availability": "Flexible",
     "price": "£27 per hour",
+    "bio": "Hi, I'm a cat sitter who loves spending time with cats! I understand that every cat is unique and has their own needs, and I'm happy to provide personalized care to ensure your cat is happy and healthy.",
     "rating": 4.1
   },
 
@@ -285,6 +314,7 @@
     "location": "Sheffield",
     "availability": "Monday to Friday, 11am to 6pm",
     "price": "£40 per hour",
+    "bio": "Hi, I'm a cat sitter who loves spending time with cats! I understand that every cat is unique and has their own needs, and I'm happy to provide personalized care to ensure your cat is happy and healthy.",
     "rating": 4.0
   },
   {
@@ -294,6 +324,7 @@
     "location": "Birmingham",
     "availability": "Weekdays only, 10am to 4pm",
     "price": "£12 per hour",
+    "bio": "Hi, I'm a cat sitter who loves spending time with cats! I understand that every cat is unique and has their own needs, and I'm happy to provide personalized care to ensure your cat is happy and healthy.",
     "rating": 4.2
   },
 
@@ -304,6 +335,7 @@
     "location": "Glasgow",
     "availability": "Weekends only, 9am to 6pm",
     "price": "£11 per hour",
+    "bio": "Hi, I'm a cat sitter who loves spending time with cats! I understand that every cat is unique and has their own needs, and I'm happy to provide personalized care to ensure your cat is happy and healthy.",
     "rating": 3.9
   },
 
@@ -314,6 +346,7 @@
     "location": "Manchester",
     "availability": "Flexible",
     "price": "£10 per hour",
+    "bio": "Hi, I'm a cat sitter who loves spending time with cats! I understand that every cat is unique and has their own needs, and I'm happy to provide personalized care to ensure your cat is happy and healthy.",
     "rating": 3.8
   },
 
@@ -324,6 +357,7 @@
     "location": "Liverpool",
     "availability": "Monday to Friday, 8am to 4pm",
     "price": "£13 per hour",
+    "bio": "Hi, I'm a cat sitter who loves spending time with cats! I understand that every cat is unique and has their own needs, and I'm happy to provide personalized care to ensure your cat is happy and healthy.",
     "rating": 4.5
   },
 
@@ -334,6 +368,7 @@
     "location": "Belfast",
     "availability": "Weekends only, 9am to 5pm",
     "price": "£14 per hour",
+    "bio": "Hi, I'm a cat sitter who loves spending time with cats! I understand that every cat is unique and has their own needs, and I'm happy to provide personalized care to ensure your cat is happy and healthy.",
     "rating": 4.1
   },
 
@@ -344,6 +379,7 @@
     "location": "Leeds",
     "availability": "Flexible",
     "price": "£11 per hour",
+    "bio": "Hello, I'm a cat sitter who's passionate about providing the best possible care for your feline friend. I'm responsible, reliable, and have years of experience working with cats.",
     "rating": 3.5
   },
 
@@ -354,6 +390,7 @@
     "location": "Cardiff",
     "availability": "Monday to Thursday, 9am to 5pm",
     "price": "£12 per hour",
+    "bio": "Hello, I'm a cat sitter who's passionate about providing the best possible care for your feline friend. I'm responsible, reliable, and have years of experience working with cats.",
     "rating": 4.3
   },
 
@@ -364,6 +401,7 @@
     "location": "Edinburgh",
     "availability": "Weekends only, 10am to 6pm",
     "price": "£15 per hour",
+    "bio": "Hello, I'm a cat sitter who's passionate about providing the best possible care for your feline friend. I'm responsible, reliable, and have years of experience working with cats.",
     "rating": 4.7
   },
 
@@ -374,6 +412,7 @@
     "location": "Sheffield",
     "availability": "Flexible",
     "price": "£11 per hour",
+    "bio": "Hello, I'm a cat sitter who's passionate about providing the best possible care for your feline friend. I'm responsible, reliable, and have years of experience working with cats.",
     "rating": 3.2
   },
 
@@ -384,6 +423,7 @@
     "location": "London",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£14 per hour",
+    "bio": "Hello, I'm a cat sitter who's passionate about providing the best possible care for your feline friend. I'm responsible, reliable, and have years of experience working with cats.",
     "rating": 4.6
   },
 
@@ -394,6 +434,7 @@
     "location": "Glasgow",
     "availability": "Weekdays only, 10am to 3pm",
     "price": "£10 per hour",
+    "bio": "Hi there! As a lifelong cat lover, I know just how important it is to provide top-notch care for your furry friend. I'm experienced, trustworthy, and always go the extra mile to make sure your cat is comfortable and happy.",
     "rating": 3.7
   },
 
@@ -404,6 +445,7 @@
     "location": "Manchester",
     "availability": "Flexible",
     "price": "£13 per hour",
+    "bio": "Hi there! As a lifelong cat lover, I know just how important it is to provide top-notch care for your furry friend. I'm experienced, trustworthy, and always go the extra mile to make sure your cat is comfortable and happy.",
     "rating": 4.0
   },
 
@@ -414,6 +456,7 @@
     "location": "Birmingham",
     "availability": "Weekends only, 11am to 5pm",
     "price": "£12 per hour",
+    "bio": "Hi there! As a lifelong cat lover, I know just how important it is to provide top-notch care for your furry friend. I'm experienced, trustworthy, and always go the extra mile to make sure your cat is comfortable and happy.",
     "rating": 4.4
   },
 
@@ -424,6 +467,7 @@
     "location": "Leeds",
     "availability": "Monday to Friday, 8am to 4pm",
     "price": "£15 per hour",
+    "bio": "Hi there! As a lifelong cat lover, I know just how important it is to provide top-notch care for your furry friend. I'm experienced, trustworthy, and always go the extra mile to make sure your cat is comfortable and happy.",
     "rating": 4.8
   },
 
@@ -434,6 +478,7 @@
     "location": "Cardiff",
     "availability": "Flexible",
     "price": "£11 per hour",
+    "bio": "Hey, I'm a cat sitter who truly loves spending time with cats. Whether it's snuggling up on the couch or playing with toys, I'm here to give your cat all the attention they deserve!",
     "rating": 4.1
   },
   {
@@ -443,6 +488,7 @@
     "location": "Bristol",
     "availability": "Weekdays only, 9am to 3pm",
     "price": "£12 per hour",
+    "bio": "Hey, I'm a cat sitter who truly loves spending time with cats. Whether it's snuggling up on the couch or playing with toys, I'm here to give your cat all the attention they deserve!",
     "rating": 4.6
   },
   {
@@ -452,6 +498,7 @@
     "location": "Newcastle",
     "availability": "Flexible",
     "price": "£15 per hour",
+    "bio": "Hey, I'm a cat sitter who truly loves spending time with cats. Whether it's snuggling up on the couch or playing with toys, I'm here to give your cat all the attention they deserve!",
     "rating": 4.4
   },
   {
@@ -461,6 +508,7 @@
     "location": "Leicester",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£13 per hour",
+    "bio": "Hey, I'm a cat sitter who truly loves spending time with cats. Whether it's snuggling up on the couch or playing with toys, I'm here to give your cat all the attention they deserve!",
     "rating": 4.2
   },
   {
@@ -470,6 +518,7 @@
     "location": "Glasgow",
     "availability": "Weekends only",
     "price": "£11 per hour",
+    "bio": "Hi! I'm an experienced cat sitter who's committed to providing the best possible care for your furry friend. I have a deep understanding of cat behavior and will make sure your cat feels safe and happy while you're away.",
     "rating": 4.1
   },
   {
@@ -479,6 +528,7 @@
     "location": "London",
     "availability": "Flexible",
     "price": "£14 per hour",
+    "bio": "Hi! I'm an experienced cat sitter who's committed to providing the best possible care for your furry friend. I have a deep understanding of cat behavior and will make sure your cat feels safe and happy while you're away.",
     "rating": 4.9
   },
   {
@@ -488,6 +538,7 @@
     "location": "Liverpool",
     "availability": "Weekdays only, 9am to 3pm",
     "price": "£12 per hour",
+    "bio": "Hi! I'm an experienced cat sitter who's committed to providing the best possible care for your furry friend. I have a deep understanding of cat behavior and will make sure your cat feels safe and happy while you're away.",
     "rating": 3.8
   },
   {
@@ -497,6 +548,7 @@
     "location": "Sheffield",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£13 per hour",
+    "bio": "Hi! I'm an experienced cat sitter who's committed to providing the best possible care for your furry friend. I have a deep understanding of cat behavior and will make sure your cat feels safe and happy while you're away.",
     "rating": 4.5
   },
   {
@@ -506,6 +558,7 @@
     "location": "Edinburgh",
     "availability": "Weekends only, 9am to 5pm",
     "price": "£10 per hour",
+    "bio": "Hi! I'm an experienced cat sitter who's committed to providing the best possible care for your furry friend. I have a deep understanding of cat behavior and will make sure your cat feels safe and happy while you're away.",
     "rating": 4.7
   },
   {
@@ -515,6 +568,7 @@
     "location": "Manchester",
     "availability": "Flexible",
     "price": "£11 per hour",
+    "bio": "Hi, I'm Ava and I've been a cat lover my whole life! I grew up with cats and have years of experience taking care of them. I'm a reliable and trustworthy sitter who will make sure your furry friend is well taken care of. In my free time, I love exploring new cat cafes and spending time with my own cat, Luna.",
     "rating": 4.3
   },
   {
@@ -524,6 +578,7 @@
     "location": "Belfast",
     "availability": "Monday to Thursday, 9am to 3pm",
     "price": "£14 per hour",
+    "bio": "Hi! I'm an experienced cat sitter who's committed to providing the best possible care for your furry friend. I have a deep understanding of cat behavior and will make sure your cat feels safe and happy while you're away.",
     "rating": 4.0
   },
   {
@@ -533,6 +588,7 @@
     "location": "Cardiff",
     "availability": "Weekdays only, 9am to 5pm",
     "price": "£15 per hour",
+    "bio": "Hello, I'm a cat sitter with years of experience taking care of cats. I understand that every cat is unique and will work with you to create a personalized care plan that meets your cat's specific needs.",
     "rating": 3.2
   },
   {
@@ -542,6 +598,7 @@
     "location": "Leeds",
     "availability": "Flexible",
     "price": "£12 per hour",
+    "bio": "Hello, I'm a cat sitter with years of experience taking care of cats. I understand that every cat is unique and will work with you to create a personalized care plan that meets your cat's specific needs.",
     "rating": 4.8
   },
   {
@@ -551,6 +608,7 @@
     "location": "Birmingham",
     "availability": "Weekends only",
     "price": "£10 per hour",
+    "bio": "Hey there! I'm a cat sitter who loves nothing more than spending time with cats. From feeding and watering to playing and snuggling, I'm here to provide the best possible care for your feline friend.",
     "rating": 4.6
   },
   {
@@ -560,6 +618,7 @@
     "location": "Glasgow",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£13 per hour",
+    "bio": "Hey there! I'm a cat sitter who loves nothing more than spending time with cats. From feeding and watering to playing and snuggling, I'm here to provide the best possible care for your feline friend.",
     "rating": 3.9
   },
   {
@@ -569,6 +628,7 @@
     "location": "Manchester",
     "availability": "Monday to Friday, 9am to 5pm",
     "price": "£15 per hour",
+    "bio": "Hey there! I'm a cat sitter who loves nothing more than spending time with cats. From feeding and watering to playing and snuggling, I'm here to provide the best possible care for your feline friend.",
     "rating": 4.9
   }
 ]

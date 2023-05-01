@@ -62,7 +62,7 @@ export const sitters = [
   {
     id: 1,
     image: img1,
-    sitterName: "Timmy",
+    sitterName: "Tunde",
     review: "Great Guy, looked after Biscuit with no issues!",
     icon: (
       <>

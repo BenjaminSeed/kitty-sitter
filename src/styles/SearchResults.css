@@ -3,9 +3,29 @@
   justify-items: center;
 }
 
+.result-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-button {
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.67);
+  font-size: 2rem;
+}
+
+.hide-button {
+  border-radius: 10px;
+  width: 100px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.67);
+  font-size: 2rem;
+}
+
 .result-card {
-  height: 400px;
-  width: 350px;
+  height: auto;
+  width: 700px;
   margin-top: 1rem;
   display: grid;
   justify-items: center;
@@ -27,8 +47,8 @@
 
 .result-image {
   margin-top: 10px;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   margin-bottom: 0.4rem;
   object-fit: cover;
@@ -38,22 +58,27 @@
 .result-name {
   font-size: 2.3rem;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .result-location {
   font-size: 1.6rem;
+  margin-bottom: 5px;
 }
 
 .result-price {
   font-size: 1.6rem;
+  margin-bottom: 5px;
 }
 
 .result-availability {
   font-size: 1.6rem;
+  margin-bottom: 5px;
 }
 
 .result-rating {
   font-size: 1.6rem;
+  margin-bottom: 10px;
 }
 
 .result-button {
@@ -61,5 +86,13 @@
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 10px;
+  background-color: whitesmoke;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.67);
+}
+
+.result-bio {
+  margin: 0 15px;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 15px;
 }
