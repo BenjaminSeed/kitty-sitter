@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Ben",
+    "image": "../../src/assets/DSC02372.jpg",
+    "role": "Creator",
+    "description": "Ben (thats me!) created the cat sitter search app after being inspired by his cat Poppy to find a more convenient way to find trustworthy cat sitters."
+  },
+  {
+    "id": 2,
+    "name": "Lisa",
+    "image": "../../src/assets/DSC00802.ARW_Original.jpg",
+    "role": "Moral Support",
+    "description": "Lisa (Ben's partner in crime) provides moral support to the team and keeps everyone motivated to provide the best user experience possible."
+  },
+  {
+    "id": 3,
+    "name": "Poppy",
+    "image": "../../src/assets/IMG_3742.jpeg",
+    "role": "Inspirational Cat",
+    "description": "Poppy inspired the creation of the cat sitter search app by being absolutely adorable."
+  }
+]
