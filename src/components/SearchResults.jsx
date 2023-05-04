@@ -5,10 +5,11 @@ import SearchBar from "./SearchBar";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../styles/SearchResults.css";
+import ResultCard from "./ResultCard";
 
 const SearchResults = () => {
-  const [viewAllProfiles, setViewAllProfiles] = useState(false);
-  const [hideAllProfiles, setHideAllProfiles] = useState(true);
+  const [showAllProfiles, setShowProfiles] = useState(false);
+  const [showSingleProfile, setShowSingleProfile] = useState(true);
   const { name } = useParams();
   const sitter = sitterData.find((sitter) => sitter.name === name);
   console.log(sitter);
@@ -19,17 +20,17 @@ const SearchResults = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    toast("the button doesn't do anything yet 😔");
+    toast("functionality coming soon!");
   };
 
   const handleProfileClick = () => {
-    setViewAllProfiles(true);
-    setHideAllProfiles(false);
+    setShowProfiles(true);
+    setShowSingleProfile(false);
   };
 
   const hideProfileClick = () => {
-    setHideAllProfiles(true);
-    setViewAllProfiles(false);
+    setShowSingleProfile(true);
+    setShowProfiles(false);
   };
 
   return (
@@ -55,49 +56,19 @@ const SearchResults = () => {
         placeHolder="search for all cat sitters by location, price or availability"
         data={sitterData}
       />
-      {viewAllProfiles && (
+      {showAllProfiles && (
         <>
           {sitterData.map((sitter) => (
-            <div className="result-card" key={sitter.id}>
-              <img
-                className="result-image"
-                src={sitter.image}
-                alt={sitter.name}
-              />
-              <div className="result-name">{sitter.name}</div>
-              <div className="result-location">{sitter.location}</div>
-              <div className="result-price">{sitter.price}</div>
-              <div className="result-availability">
-                Availability: {sitter.availability}
-              </div>
-              <div className="result-bio">"{sitter.bio}"</div>
-              <div className="result-rating">Rating: {sitter.rating}</div>
-              <button
-                className="result-button"
-                type="button"
-                onClick={handleClick}
-              >
-                send message
-              </button>
-            </div>
+            <ResultCard
+              sitter={sitter}
+              handleClick={handleClick}
+              key={sitter.id}
+            />
           ))}
         </>
       )}
-      {!viewAllProfiles && (
-        <div className="result-card">
-          <img className="result-image" src={sitter.image} alt={sitter.name} />
-          <div className="result-name">{sitter.name}</div>
-          <div className="result-location">{sitter.location}</div>
-          <div className="result-price">{sitter.price}</div>
-          <div className="result-availability">
-            Availability: {sitter.availability}
-          </div>
-          <div className="result-bio">"{sitter.bio}"</div>
-          <div className="result-rating">Rating: {sitter.rating}</div>
-          <button className="result-button" type="button" onClick={handleClick}>
-            send message
-          </button>
-        </div>
+      {!showAllProfiles && (
+        <ResultCard sitter={sitter} handleClick={handleClick} key={sitter.id} />
       )}
       <ToastContainer position="top-center" theme="dark" />
     </div>
