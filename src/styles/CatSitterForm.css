@@ -69,6 +69,18 @@
   letter-spacing: 0.1rem;
 }
 
+.form-inputBio {
+  width: 100%;
+  height: 10rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 15px;
+  background: lightgray;
+  border: 1px solid grey;
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+}
+
 .sitter-title {
   font-family: "Amatic SC", cursive;
   display: flex;

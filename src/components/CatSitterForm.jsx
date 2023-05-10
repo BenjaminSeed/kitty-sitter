@@ -10,6 +10,7 @@ const CatSitterForm = () => {
     address: "",
     phoneNumber: "",
     experience: "",
+    profile: "",
   });
 
   const handleSubmit = (e) => {
@@ -26,6 +27,9 @@ const CatSitterForm = () => {
       address: "",
       phoneNumber: "",
       experience: "",
+      rate: "",
+      availability: "",
+      bio: "",
     });
   };
 
@@ -92,6 +96,54 @@ const CatSitterForm = () => {
               placeholder="e.g. 3 "
               value={form.experience}
               onChange={(e) => setForm({ ...form, experience: e.target.value })}
+            />
+          </label>
+        </div>
+        <div className="form-row">
+          <label className="form-label">
+            Rate per hour:
+            <input
+              type="text"
+              className="form-input"
+              placeholder="e.g. £15 "
+              value={form.rate}
+              onChange={(e) => setForm({ ...form, rate: e.target.value })}
+            />
+          </label>
+        </div>
+        <div className="form-row">
+          <label className="form-label">
+            Availability:
+            <input
+              type="text"
+              className="form-input"
+              placeholder="e.g. Monday to Friday, 9am to 5pm "
+              value={form.availability}
+              onChange={(e) =>
+                setForm({ ...form, availability: e.target.value })
+              }
+            />
+          </label>
+        </div>
+        <div className="form-row">
+          <label className="form-label">
+            Profile Picture:
+            <input
+              type="file"
+              className="form-input"
+              value={form.profile}
+              onChange={(e) => setForm({ ...form, profile: e.target.value })}
+            />
+          </label>
+        </div>
+        <div className="form-row">
+          <label className="form-label">
+            About Me:
+            <textarea
+              type="text"
+              className="form-inputBio"
+              value={form.bio}
+              onChange={(e) => setForm({ ...form, bio: e.target.value })}
             />
           </label>
         </div>

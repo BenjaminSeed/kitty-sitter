@@ -28,8 +28,11 @@ const SearchBar = ({ placeHolder, data }) => {
   };
 
   const handleLinkClick = () => {
-    linkClicked === value.name;
-    return setLinkClicked(false);
+    if (linkClicked === value.name) {
+      setLinkClicked(false);
+    } else {
+      return setLinkClicked("Invalid link clicked");
+    }
   };
 
   return (

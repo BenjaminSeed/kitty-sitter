@@ -7,7 +7,7 @@ const About = () => {
     <>
       <h1 className="about-header">Meet The team behind kitty sitter</h1>
       <p className="about-info">
-        Welcome to kitty sitter! the interwebs no1 place for all your cat sitter
+        Welcome to kitty sitter! the internets no1 place for all your cat sitter
         needs.
       </p>
       <p className="about-info">
