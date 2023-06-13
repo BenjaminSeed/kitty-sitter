@@ -6,6 +6,7 @@ const About = () => {
   return (
     <>
       <h1 className="about-header">Meet The team behind kitty sitter</h1>
+      <br />
       <p className="about-info">
         Welcome to kitty sitter! the internets no1 place for all your cat sitter
         needs.
@@ -28,6 +29,7 @@ const About = () => {
           );
         })}
       </div>
+      <br />
       <p className="about-info">
         Kitty sitter was the brainchild of myself, Benjamin Seed, after a rather
         lengthy discussion about who would look after our house-cat whilst we
